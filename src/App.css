@@ -1,0 +1,144 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.outerMostWrapper {
+    text-align: center;
+}
+
+.topBorder {
+    height: 25px;
+}
+
+.beachday {
+    border: 2px solid black;
+    height: 200px;
+    width: 250px;
+    font-size: smaller;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+  }
+  
+  /* .pictures1 {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+  } */
+  .pictures2 {
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(133, 232, 239); */
+  }
+  
+  .border {
+    height: 50px;
+  }
+
+  /* .acco {
+    background-color: #61dafb;
+  } */
+
+  .accordion-button{
+    text-align: center;
+    color: black;
+    background-image: url('https://images.vexels.com/media/users/3/249544/isolated/lists/0c817ddc7e1ee59755cf00a68663982d-sleeping-cat-cut-out.png') !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    background-color: #b9b1bd;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black  !important;
+  }
+  
+/* .accordion-button::after {
+    background-color: #a87ae9;
+} */
+  
+  
+  .accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+    background-color: #a79fab !important;
+      color:black !important;
+      text-decoration: none !important;
+       border: hidden !important;
+         border-color: #FFF !important;
+      box-shadow: 0px !important;
+  
+        
+  }
+
+  /* .accordion-button:not(.collapsed)::after {
+    background-color: #a87ae9;
+  } */
+
+  /* .accordion-block {
+    background: linear-gradient(to left, #a87ea9, #5500c9);
+  } */
+
+  .accordion-item{
+    /* background: linear-gradient(to bottom, #f2f7f6, #0335ca) !important; */
+    /* background-image: url('https://render.fineartamerica.com/images/rendered/default/flatrolled/yoga-mat/images-medium-5/under-the-great-wave-off-kanagawa-nomad-art-and-design.jpg?&targetx=0&targety=-235&imagewidth=1320&imageheight=911&modelwidth=1320&modelheight=440&backgroundcolor=C4B2A0&orientation=1&producttype=yogamat'); */
+    /* background-size: cover; */
+    background: center !important;
+    /* background-position-y: 30px; */
+    /* height: 400px; */
+    border:1px solid rgb(146, 145, 196)!important;
+    /* border-radius: 40px !important */
+}
+
+    /* .accordion-header{
+        background-color: #a87ea9;
+    } */
+
+    .accordion-button::before {
+        background-color: #a87ea9 !important;
+    }
